@@ -16,10 +16,10 @@ const routes: Routes = [
 { path: '', component: AdminComponent ,
 
   children: [
-{ path: 'catgeory', component: CatgeoryComponent,canActivate:[AdminAuthGuard]},
-{ path: 'articles', component: ArticlesComponent,canActivate:[AdminAuthGuard]},
-{ path: 'contacts', component: ContactsComponent,canActivate:[AdminAuthGuard]},
-{ path: 'users', component: UsersComponent,canActivate:[AdminAuthGuard]},
+{ path: 'catgeory', component: CatgeoryComponent},
+{ path: 'articles', component: ArticlesComponent},
+{ path: 'contacts', component: ContactsComponent},
+{ path: 'users', component: UsersComponent},
 
 ]
 
